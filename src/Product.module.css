@@ -1,0 +1,45 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
+.image {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.cartbtn {
+  width: 30%;
+  padding: 10px 0px;
+  text-transform: uppercase;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  outline: rgb(241, 183, 57);
+  background-color: rgb(241, 183, 57);
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: rgb(241, 183, 57);
+  background-color: rgb(241, 183, 57);
+}
+
+.spn {
+  padding: 10px;
+}
+
+@media (max-width: 900px) {
+  .list {
+    margin-top: 30px;
+  }
+}

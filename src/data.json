@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1571859812101-5512cab4416d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzN8fHBhY2tlZCUyMGNob2NvbGF0ZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "name": "Brownies"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1574494462421-9962187a1007?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fHdhdGVyJTIwYm90dGxlc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "name": "Water Bottle"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1539870113056-c6d7439045ce?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8c3RhdGlvbmVyeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "name": "Paper Clips"
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8a2V0Y2h1cHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "name": "Coca Cola"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1535157412991-2ef801c1748b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8cGhvbmUlMjBjYXNlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "name": "Phone Cases"
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1591290619618-904f6dd935e3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8cGhvbmUlMjBjaGFyZ2VyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    "name": "Wireless Charger"
+  }
+]
