@@ -12,6 +12,15 @@ const Product = ({ image, name, key }) => {
     setAddCart(false)
     setShowCart(true)
   }
+  
+  const updateCount = (e) => {
+    let x = Number(e.target.value)
+    setCount(x)
+    if (x == 0) {
+      setAddCart(true)
+      setShowCart(false)
+    }
+  }
 
   const inc = () => {
     setCount(count + 1)
@@ -35,11 +44,16 @@ const Product = ({ image, name, key }) => {
         </button>
       ) : null}
       {showCart ? (
-        <div>
+        <div className={style.cart}>
           <button className={style.btn} onClick={dec}>
             <FaMinus />
           </button>
-          <span className={style.spn}>{count}</span>
+          <input
+            className={style.inp}
+            type='number'
+            value={count}
+            onChange={updateCount}
+          />
           <button className={style.btn} onClick={inc}>
             <FaPlus />
           </button>
