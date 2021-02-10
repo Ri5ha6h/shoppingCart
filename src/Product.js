@@ -21,7 +21,7 @@ const Product = ({ image, name, key }) => {
       setAddCart(false)
       setShowCart(true)
     }
-    else if (x == 0) {
+    else if (x <= 0) {
       setAddCart(true)
       setShowCart(false)
     }
