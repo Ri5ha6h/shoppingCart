@@ -5,7 +5,7 @@ import { FaMinus, FaPlus } from 'react-icons/fa'
 const Product = ({ image, name, key }) => {
   const [addCart, setAddCart] = useState(true)
   const [showCart, setShowCart] = useState(false)
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(null)
 
   const clicked = () => {
     setCount(1)
@@ -16,7 +16,12 @@ const Product = ({ image, name, key }) => {
   const updateCount = (e) => {
     let x = Number(e.target.value)
     setCount(x)
-    if (x == 0) {
+     if (e.target.value === '') {
+      setCount(null)
+      setAddCart(false)
+      setShowCart(true)
+    }
+    else if (x == 0) {
       setAddCart(true)
       setShowCart(false)
     }
