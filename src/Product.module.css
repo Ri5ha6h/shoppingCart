@@ -24,6 +24,12 @@
   border-radius: 10px;
   outline: rgb(241, 183, 57);
   background-color: rgb(241, 183, 57);
+  cursor: pointer;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
 }
 
 .btn {
@@ -32,10 +38,18 @@
   border-radius: 5px;
   outline: rgb(241, 183, 57);
   background-color: rgb(241, 183, 57);
+  cursor: pointer;
 }
 
-.spn {
+.inp {
+  width: 10%;
   padding: 10px;
+}
+
+.inp::-webkit-outer-spin-button,
+.inp::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 @media (max-width: 900px) {
